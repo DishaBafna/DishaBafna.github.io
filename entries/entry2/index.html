@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+<style>
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      display: block;
+      width: 50%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #0000006d;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    </style>
+
+
+</head>
+<body>
+    <img src="./imgs/dishlogo2.png" width="150" height="150" alt="" id="hp" class="rotate linear infinite">
+    <div style="text-align: left;"><img src="./imgs/friedegg.png width=200" alt="" /></div> <img src="./imgs/friedegg.png" width="200" height="" alt="" > 
+    <h1>breakfast recipies</h1>
+    
+    <center> <h3>for when you have more than 5 minutes</h3> </center> 
+<br>
+    <div class="row">
+        <div class="column">
+          <center> <img src="./imgs/eggstoast.jpg" width="280" height="" alt=""> </center> 
+        </div>
+        <div class="column">
+            <center> <img src="./imgs/pancakes.jpg" width="280" height="" alt="">  </center> 
+        </div>
+        <div class="column">
+           <center> <img src="./imgs/avacadotoast.jpg" width="280" height="" alt="">  </center> 
+    
+        </div>
+      </div>
+    
+
+      <h4>eggs + toast</h4> 
+     <h4>pancakes</h4> 
+      <h4>avacado toast</h4>
+
+      <br>
+
+    <div class="container">
+        <center> <img src="./imgs/eggstoast.jpg" width="100" height="auto" alt="" class="image"> </center>
+        <div class="overlay">
+          <div class="text">eggs + toast </div>
+        </div>
+      </div>
+
+<br>
+
+ <div class="container">
+        <center> <img src="./imgs/avacadotoast.jpg" width="100" height="auto" alt="" class="image"> </center>
+        <div class="overlay">
+          <div class="text">avacado toast </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <center> <img src="./imgs/pancakes.jpg" width="100" height="auto" alt="" class="image"> </center>
+        <div class="overlay">
+          <div class="text">pancakes </div>
+        </div>
+      </div>
+   
+
+
+  
+
+
+
+</body>
+</html>

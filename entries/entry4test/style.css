@@ -1,0 +1,30 @@
+body {
+    background-color: #FFD4C7;
+    font-family: 'georgia', monospace;
+    padding: 0px;
+    margin: 80px;
+}
+
+h1{
+    text-align: center;
+    color: #187822;
+    font-size: 75px;
+    font-style: regular;
+    margin-bottom: 0px;
+}
+
+img [src=dishlogo.png] { 
+    max-width: 40%;
+    float: :right;
+    padding-left: 50px;
+    padding-bottom: 30px;
+
+        
+ #hiddentext {
+    text-align: :right;
+    color: #1C4087;
+    font-size: 40px;
+    font-style: bold;
+} 
+
+
