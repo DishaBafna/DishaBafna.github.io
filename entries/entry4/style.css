@@ -4,6 +4,31 @@ body {
     margin: 0px;
 }
 
+#hp { 
+    position: absolute; 
+    top: 20px;
+    right: 10px;
+  }
+ 
+  .rotate {
+    animation: rotation 30s;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .linear {
+    animation-timing-function: linear;
+  }
+ 
+  .infinite {
+    animation-iteration-count: infinite;
+  } 
+
 h1{
     text-align: center;
     color: #187822;
@@ -12,14 +37,103 @@ h1{
     margin-bottom: 0px;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: nowwrap;
+h2{
+    color: #1C4087;
+    font-size: 30px;
+    font-style: regular;
 }
 
-#list {
-    text-align: left;
-    color: #1C4087;
-    font-size: 35px;
+h3{
+    color: #E78686;
+    font-size: 30px;
     font-style: regular;
-   
+}
+
+#img1 {
+    position: absolute;
+    left: 450px;
+    top: 220px;
+}
+
+#img2 {
+    position: absolute;
+    left: 450px;
+    top: 395px;
+}
+
+#img3 {
+    position: absolute;
+    left: 450px;
+    top: 445px;
+}
+
+#img4 {
+    position: absolute;
+    left: 450px;
+    top: 533px;
+}
+
+#img5 {
+    position: absolute;
+    left: 450px;
+    top: 585px;
+}
+
+#img6 {
+    position: absolute;
+    left: 450px;
+    top: 665px;
+}
+
+#item1 {
+    position: absolute;
+    right: 80px;
+    top: 280px;
+}
+
+#item6 {
+    position: absolute;
+    left: 150px;
+    top: 280px;
+}
+
+#item2 {
+    position: absolute;
+    right: 150px;
+    top: 380px;
+}
+
+
+#item7 {
+    position: absolute;
+    left: 150px;
+    top: 380px;
+}
+
+#item3 {
+    position: absolute;
+    right: 150px;
+    top: 450px;
+}
+
+#item8{
+    position: absolute;
+    left: 150px;
+    top: 425px;
+}
+
+#item4{
+
+}
+
+#item9{
+
+}
+
+#item5{
+
+}
+
+#item10{
+    
+}

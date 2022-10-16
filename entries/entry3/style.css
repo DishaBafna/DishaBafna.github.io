@@ -1,85 +1,159 @@
- 
-
 body {
-    background-color: #FFFDFB;
-    font-family: 'georgia', monospace;
-    padding: 50px;
+   background-color: #DAEBEF;
+   font-family: 'georgia', monospace;
+   margin: 0px;
 }
 
+#hp { 
+   position: absolute; 
+   top: 20px;
+   right: 10px;
+ }
+
+ .rotate {
+   animation: rotation 30s;
+ }
+ @keyframes rotation {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(359deg);
+   }
+ }
+ .linear {
+   animation-timing-function: linear;
+ }
+
+ .infinite {
+   animation-iteration-count: infinite;
+ }
+
 h1{
-    text-align: left;
-    color: #1C4087;
-    font-size: 75px;
-    font-style: regular;
-    margin-bottom: 0px;
+   text-align: center;
+   color: #1C4087;
+   font-size: 75px;
+   font-style: regular;
+   margin-bottom: 0px;
 }
 
 h2 { 
-    text-align: :left;
-    color: #EAA4A4;
-    font-size: 60px;
-    font-style: regular;}
-    
+   text-align: :left;
+   color: #186565;
+   font-size: 60px;
+   font-style: regular;}
+
+   .hiddenText {
+      display: none;
+   }
+   .hoverDiv:hover + .hiddenText {
+      display: block;
+      color: #1C4087;
+      font-size: 25px;
+      font-weight: regular;
+      padding-left: 550px;
+      line-height: 1.5;
+   }
+   
 #sub1 {
-    text-align: :left;
-    color: #EAA4A4;
-    font-size: 60px;
-    font-style: bold;}   
+   text-align: :left;
+   color: #E43F3E;
+   font-size: 55px;
+   font-style: bold;
+   position: absolute;
+   left: 350px;
+   top:200px;
+}   
 
- #list1 { 
-    text-align: :;
-    color: #1C4087;
-    font-size: 30px;
-    font-style: bold;}   
+#list1 { 
+   text-align: :;
+   color: #186565;
+   font-size: 30px;
+   font-style: bold;
+   list-style-type: none;
+   position: absolute;
+   left: 300px;
+   top:200px;
+}   
 
-    #sub2 {
-        text-align: :left;
-        color: #EAA4A4;
-        font-size: 60px;
-        font-style: bold;}   
-    
-     #list2 { 
-        text-align: :;
-        color: #1C4087;
-        font-size: 30px;
-        font-style: bold;}   
- 
-        #sub3 {
-            text-align: :left;
-            color: #EAA4A4;
-            font-size: 60px;
-            font-style: bold;}   
-        
-         #list3 { 
-            text-align: :;
-            color: #1C4087;
-            font-size: 30px;
-            font-style: bold;}       
+#sub5 {
+   text-align: :left;
+   color: #E43F3E;
+   font-size: 55px;
+   font-style: bold;
+   position: absolute;
+   left: 350px;
+   top:300px;}   
 
-            #sub4 {
-                text-align: :left;
-                color: #EAA4A4;
-                font-size: 60px;
-                font-style: bold;}   
-            
-             #list4 { 
-                text-align: :;
-                color: #1C4087;
-                font-size: 30px;
-                font-style: bold;}              
+#list5 { 
+   text-align: :;
+   color: #186565;
+   font-size: 30px;
+   font-style: bold;
+   list-style-type: none;
+   position: absolute;
+   left: 300px;
+   top:200px;
+}        
+   #sub2 {
+       text-align: :left;
+       color: #E43F3E;
+       font-size: 55px;
+       font-style: bold;
+       position: absolute;
+       left: 350px;
+       top:400px;
+      }   
+   
+    #list2 { 
+       text-align: :;
+       color: #186565;
+       font-size: 30px;
+       font-style: bold;
+       list-style-type: none;
+       position: absolute;
+       left: 300px;
+       top:200px;
+      }   
 
-                body{
-                    margin:20px;
-                    padding:20px;
-                    font-family: 'georgia', monospace;
-                 }
-                 .hiddenText {
-                    display: none;
-                 }
-                 .:hover + .hiddenText {
-                    display: block;
-                    color: #1C4087;
-                    font-size: 22px;
-                    font-weight: regular;
-                    padding-left: 550px;
-                 }
+       #sub3 {
+           text-align: :left;
+           color: #E43F3E;
+           font-size: 55px;
+           font-style: bold;
+           position: absolute;
+           left: 350px;
+           top:500px;
+         }   
+       
+        #list3 { 
+           text-align: :;
+           color: #186565;
+           font-size: 30px;
+           font-style: bold;
+           list-style-type: none;
+           position: absolute;
+           left: 300px;
+           top:200px;
+         }       
+
+           #sub4 {
+               text-align: :left;
+               color: #E43F3E;
+               font-size: 55px;
+               font-style: bold;
+               position: absolute;
+               left: 350px;
+               top:600px;
+            }   
+           
+            #list4 { 
+               text-align: :;
+               color: #186565;
+               font-size: 30px;
+               font-style: bold;
+               list-style-type: none;
+               position: absolute;
+               left: 300px;
+               top:200px;
+            }              

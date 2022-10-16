@@ -1,0 +1,81 @@
+body {
+    background-color: #FEF6EB;
+    font-family: 'georgia', monospace;
+    margin: 0px;
+}
+
+#hp { 
+    position: absolute; 
+    top: 20px;
+    right: 10px;
+  }
+
+  .rotate {
+    animation: rotation 30s;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .linear {
+    animation-timing-function: linear;
+  }
+
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+
+h1{
+    text-align: center;
+    color: #1D1AB0;
+    font-size: 75px;
+    font-style: regular;
+    margin-bottom: 0px;
+}
+
+.img {
+    position: absolute;
+    right: 180px;
+    top: 220px;
+}
+
+.list {
+    text-align:left;
+    position:absolute;
+    top: 180px;
+    left: 175px;
+    color: #EA3F37;
+    font-size: 35px;
+    font-style:regular; 
+    line-height: 2.5;
+}
+
+a:link {
+  color: #FEB0A6;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #FEB0A6;
+  background-color: transparent;  
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #E9464D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #E9464D;
+  background-color: transparent;
+  text-decoration: none;
+}
