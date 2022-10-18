@@ -29,6 +29,15 @@ body {
     animation-iteration-count: infinite;
   } 
 
+  .hiddenText {
+    display: none;
+ }
+
+
+ .hoverDiv:hover + .hiddenText {
+    display: block;
+}
+
 h1{
     text-align: center;
     color: #187822;
@@ -87,53 +96,60 @@ h3{
 
 #item1 {
     position: absolute;
-    right: 80px;
+    right: 100px;
     top: 280px;
 }
 
-#item6 {
-    position: absolute;
-    left: 150px;
-    top: 280px;
+        #item6 {
+        position: absolute;
+        left: 250px;
+        top: 280px;
 }
 
 #item2 {
-    position: absolute;
-    right: 150px;
-    top: 380px;
+position: absolute;
+right: 150px;
+top: 380px;
 }
 
-
-#item7 {
-    position: absolute;
-    left: 150px;
-    top: 380px;
+        #item7 {
+       position: absolute;
+       left: 340px;
+       top: 380px;
 }
 
 #item3 {
-    position: absolute;
-    right: 150px;
-    top: 450px;
+position: absolute;
+right: 150px;
+top: 450px;
 }
 
-#item8{
-    position: absolute;
-    left: 150px;
-    top: 425px;
+        #item8{
+        position: absolute;
+        left: 150px;
+        top: 450px;
 }
 
 #item4{
-
+position: absolute;
+right: 150px;
+top: 550px;
 }
 
-#item9{
-
+        #item9{
+        position: absolute;
+        left: 150px;
+        top: 550px;
 }
 
 #item5{
-
+position: absolute;
+right: 150px;
+top: 650px;
 }
 
-#item10{
-    
+        #item10{
+        position: absolute;
+        left: 150px;
+        top: 650px;
 }

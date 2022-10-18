@@ -1,0 +1,49 @@
+body {
+    background-color: #FCE0F1;
+    font-family: 'arial', monospace;
+    margin: 0px;
+}
+
+  #hp { 
+      position: absolute; 
+      top: 20px;
+      right: 10px;
+    }
+   
+    .rotate {
+      animation: rotation 30s;
+    }
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+    .linear {
+      animation-timing-function: linear;
+    }
+   
+    .infinite {
+      animation-iteration-count: infinite;
+    }
+
+h1 {
+  text-align: center;
+  color: #187822;
+  font-size: 200px;
+  font-style: regular;
+}
+.word1 {
+  position: absolute; 
+  top: 80px;
+  left: 330px;
+}
+.word2 {
+  position: absolute; 
+  top: 270px;
+  left: 290px;
+
+}
+
