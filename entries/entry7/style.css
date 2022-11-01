@@ -1,0 +1,90 @@
+*{
+    background: rgb(255, 255, 255);
+    font-family: 'georgia', monospace;
+    color: rgb(48, 146, 181);
+  }
+  
+  h1{
+    text-align: center;
+    color: #fbdd70;
+    font-size: 5vw;
+    font-style: regular;
+    margin-bottom: 20px;
+  }
+
+ #hp { 
+    position: absolute; 
+    top: 20px;
+    right: 10px;
+  }
+     
+      .rotate {
+        animation: rotation 30s;
+      }
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+      .linear {
+        animation-timing-function: linear;
+      }
+     
+      .infinite {
+        animation-iteration-count: infinite;
+      } 
+
+  .my-title{
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px; /*Make the grid smaller than the container*/
+    grid-gap: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  
+  .grid-container > div {
+    border: 0px solid black;
+    text-align: center;
+  }
+
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px; /*Make the grid smaller than the container*/
+    grid-gap: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .grid-container-1 > div {
+    border: 0px solid black;
+    text-align: center;
+  }
+
+  .list1 { 
+    color: #186565;
+    font-size: 2vw;
+    font-style: bold;
+    list-style-type: none;
+ } 
+
+ .list2 { 
+    color: #186565;
+    font-size: 2vw;
+    font-style: bold;
+    list-style-type: none;
+ } 
+
+ .list3 { 
+    color: #186565;
+    font-size: 2vw;
+    font-style: bold;
+    list-style-type: none;
+ } 
