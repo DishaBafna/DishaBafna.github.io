@@ -1,0 +1,54 @@
+{
+ box-sizing: border-box;
+  }
+
+  body{
+=   background-color: #F9EFEA;
+    font-family: Helvetica, sans-serif;
+} 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    align-items: stretch;
+  }
+
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  img { 
+      display: inline-block; 
+      height: 200px; 
+      width:auto;   
+  }
+
+#flour{
+    margin: 50px;
+  }
+
+#butter{
+    padding: 10px;
+}
+
+#eggs{
+  padding: 10px;
+}
+
+#sugar{
+  padding: 10px;
+}
+
+#powder{
+  padding: 10px;
+}
+
